@@ -1,20 +1,20 @@
-# 🎓 Vernacular AI Study Buddy
+#  Vernacular AI Study Buddy
 
 An AI-powered study assistant for Indian students (Class 9–12) that explains concepts in 7 regional languages with voice input/output, NCERT chapter alignment, interactive quizzes, and a parent dashboard.
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🌐 **7 Indian Languages** | English, Hindi, Kannada, Tamil, Telugu, Bengali, Marathi |
-| 🎤 **Voice Input** | Speak your question using the Web Speech API |
-| 🔊 **Voice Output (TTS)** | Hear explanations read aloud in your language |
-| 📚 **NCERT Alignment** | Choose Class 9–12 chapters across 5 subjects |
-| 🧠 **AI Quiz Generator** | Auto-generates 5 MCQs on any topic or chapter |
-| 📊 **Parent Dashboard** | Charts showing study habits + AI-generated progress report |
-| 💾 **Local Storage** | All data stays on your device, nothing sent to external servers |
+|  **7 Indian Languages** | English, Hindi, Kannada, Tamil, Telugu, Bengali, Marathi |
+|  **Voice Input** | Speak your question using the Web Speech API |
+|  **Voice Output (TTS)** | Hear explanations read aloud in your language |
+|  **NCERT Alignment** | Choose Class 9–12 chapters across 5 subjects |
+|  **AI Quiz Generator** | Auto-generates 5 MCQs on any topic or chapter |
+| **Parent Dashboard** | Charts showing study habits + AI-generated progress report |
+|  **Local Storage** | All data stays on your device, nothing sent to external servers |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -41,7 +41,7 @@ npm run build
 # Deploy the dist/ folder to Vercel / Netlify / GitHub Pages
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 vernacular-study-buddy/
@@ -62,7 +62,7 @@ vernacular-study-buddy/
 └── vite.config.js
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React 18** + Vite (fast development)
 - **Tailwind CSS** (styling)
@@ -72,7 +72,7 @@ vernacular-study-buddy/
 - **Recharts** (dashboard charts)
 - **React Router** (multi-page navigation)
 
-## 📱 Browser Support
+##  Browser Support
 
 | Feature | Chrome | Firefox | Safari | Edge |
 |---|---|---|---|---|
@@ -82,7 +82,7 @@ vernacular-study-buddy/
 
 > Voice input works best in Chrome. Firefox does not support the Web Speech API.
 
-## 🌟 Future Enhancements
+##  Future Enhancements
 
 - [ ] WhatsApp bot integration for farmer/rural student access
 - [ ] Offline mode with cached explanations
@@ -91,10 +91,5 @@ vernacular-study-buddy/
 - [ ] JEE/NEET exam-specific modes
 - [ ] Weekly email reports to parents
 
-## 👨‍💻 Built By
-
-A 3rd year Computer Science engineering student from Mysuru, Karnataka 🇮🇳
-
----
 
 *This project demonstrates: React, LLM API integration, Web Speech API, multi-language NLP, data visualization, and full-stack product thinking.*
