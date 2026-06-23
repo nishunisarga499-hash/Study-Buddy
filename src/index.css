@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+Kannada:wght@400;500;700&family=Noto+Sans+Tamil:wght@400;500;700&family=Noto+Sans+Telugu:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f0c1a;
+  color: #e8e4f0;
+  min-height: 100vh;
+}
+
+.font-vernacular {
+  font-family: 'Noto Sans Devanagari', 'Noto Sans Kannada', 'Noto Sans Tamil',
+               'Noto Sans Telugu', 'Noto Sans Bengali', 'Inter', sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #3d2f6e; border-radius: 3px; }
+
+/* Recording pulse */
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+.pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid #a78bfa;
+  animation: pulse-ring 1.2s ease-out infinite;
+}
+
+/* Typing dots */
+@keyframes blink { 0%,100% { opacity: 0.2; } 50% { opacity: 1; } }
+.typing-dot { animation: blink 1.4s infinite; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* Shimmer for skeleton */
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #1e1538 25%, #2d2060 50%, #1e1538 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s infinite;
+}
